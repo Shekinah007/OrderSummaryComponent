@@ -1,18 +1,124 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+	background-image: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(225, 100%, 94%);
 
-.background-image {
-    background: url("images/pattern-background-mobile.svg") center/cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+html, body {
+    height: 100%
+}
+html {
+    display: table;
+    margin: auto;
 }
 
+
 .main {
-    background-color: green;
+    border-radius: 15px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 91vw;
+
+    background-color: white;
     font-size: 16px;
-    margin: 100px;
-    margin-left: 350px;
-    margin-right:350px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+img.hero {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+h1 {
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+}
+p  {
+    margin: -5px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    width: 290px;
+    color: grey;
+}
+.plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 25px;
+    height: 70px;
+    width: 90%;
+    border-radius: 8px;
+}
+.plan img  {
+    width: 15%;
+    margin-left: 15px;
+}
+ span {
+    margin: -30px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+.annual {
+    display: flex;
+    flex-direction: column;
+    /*
+    margin-left: -70px;
+    */
+}
+a {
+    font-weight: bold;
+    margin-right: 10px;
+    color: hsl(245, 75%, 52%);
+}
+.change a:hover {
+    text-decoration: none;
+    color: hsl(225, 40%, 57%);
+}
+
+.proceed {
+    width: 90%;
+}
+.proceed a {
+    margin-top:  25px;
+    margin-bottom: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+
+    box-shadow: 0px 18px 12px rgb(213, 216, 218);
+
+}
+.proceed a:hover {
+    background-color: hsl(225, 40%, 57%)
+}
+
+
+.cancel {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.cancel a {
+    text-decoration: none;
+    color: grey;
+}
+.cancel a:hover {
+    color: black;
 }
