@@ -42,6 +42,7 @@ img.hero {
 h1 {
     font-size: 25px;
     color: hsl(223, 47%, 23%);
+    width:  200px;
 }
 p  {
     margin: -5px;
