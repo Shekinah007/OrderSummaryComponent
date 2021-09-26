@@ -5,27 +5,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: hsl(225, 100%, 94%);
-
-    display: table-cell;
-    vertical-align: middle;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
-html, body {
-    height: 100%
-}
-html {
-    display: table;
-    margin: auto;
-}
-
 
 .main {
-    border-radius: 15px;;
+    margin-left: 15.5px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 91vw;
-
+    max-width: 85vw;
     background-color: white;
     font-size: 16px;
 }
@@ -42,7 +38,6 @@ img.hero {
 h1 {
     font-size: 25px;
     color: hsl(223, 47%, 23%);
-    color: blue;
     width:  200px;
 }
 p  {
@@ -50,7 +45,7 @@ p  {
     line-height: 25px;
     font-size: 16px;
     text-align: center;
-    width: 290px;
+    width: 280px; 
     color: grey;
 }
 .plan {
